@@ -4,8 +4,8 @@ public class Math {
 
     public static void main(String[] args) {
 
-        double a = 321.555;
-        double b = 123.333;
+        double a = 5;
+        double b = 1;
 
         a = a + b;
         b = a - b;
