@@ -1,4 +1,4 @@
-package com.kolodzheieva.classwork.lesson2;
+package com.kolodzheievaZybenko.classwork.lesson2;
 
 public class Main {
     //psvm

@@ -1,4 +1,4 @@
-package com.kolodzheieva.homework.lesson3;
+package com.kolodzheievaZybenko.homework.lesson3;
 
 public class Task2 {
 

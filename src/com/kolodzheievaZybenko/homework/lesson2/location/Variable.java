@@ -1,4 +1,4 @@
-package com.kolodzheieva.homework.lesson2.location;
+package com.kolodzheievaZybenko.homework.lesson2.location;
 
 public class Variable {
 
