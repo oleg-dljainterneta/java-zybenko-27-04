@@ -4,26 +4,22 @@ public class Task1 {
 
   public static void main(String[] args) {
 
-    //Дано:
-    double r1 = 1;   //радиус 1
-    double r2 = 0.5; //радиус 2
-    double r3 = 0.2; //радиус 3
-    double k = 0.7;  //коєф плотности
-    double m;        //маса
+    double radius1 = 1;
+    double radius2 = 0.5;
+    double radius3 = 0.2;
+    double densityFactor = 0.7;
+    double SnowmanWeight;
 
-    //объем шара 4/3*pi*r^3
-    double v1 = 4.0 / 3 * Math.PI * r1;
-    double v2 = 4.0 / 3 * Math.PI * Math.pow(r2, 3);
-    double v3 = 4.0 / 3 * Math.PI * Math.pow(r3, 3);
+    double ballVolume1 = 4.0 / 3 * Math.PI * Math.pow(radius1, 3);
+    double ballVolume2 = 4.0 / 3 * Math.PI * Math.pow(radius2, 3);
+    double ballVolume3 = 4.0 / 3 * Math.PI * Math.pow(radius3, 3);
 
-    //Плотность
-    double k1 = k * v1;
-    double k2 = k * v2;
-    double k3 = k * v3;
+    double ballMass1 = densityFactor * ballVolume1;
+    double ballMass2 = densityFactor * ballVolume2;
+    double ballMass3 = densityFactor * ballVolume3;
 
-    //Вес
-    m = k1 + k2 + k3;
-    System.out.println("Snowman weight " + m);
+    SnowmanWeight = ballMass1 + ballMass2 + ballMass3;
+    System.out.println("Snowman weight " + SnowmanWeight);
 
 
   }
