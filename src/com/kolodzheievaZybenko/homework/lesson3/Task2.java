@@ -6,7 +6,7 @@ public class Task2 {
 
     double a = 2, b = 5, c = 6, res;
     res = Math.abs(a - b) / Math.pow(a + b, 3) - Math.sqrt(c);
-    System.out.println("Result:" + res);
+    System.out.printf("%.3f",res);
 
 
   }
