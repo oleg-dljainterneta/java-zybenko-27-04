@@ -28,6 +28,7 @@ public class Animals {
   }
 
   public static int calculateFood(int weight, int day, int perDay) {
+
     return weight * day * perDay;
   }
 
