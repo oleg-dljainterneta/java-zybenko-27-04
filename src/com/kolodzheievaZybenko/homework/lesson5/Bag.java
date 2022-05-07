@@ -8,26 +8,26 @@ public class Bag {
 
   public static void main(String[] args) throws IOException {
 
-    BufferedReader reader1 = new BufferedReader(new InputStreamReader(System.in));
-    System.out.println("enter a lenght: ");
-    int lenght = Integer.parseInt(reader1.readLine());
+    BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+    System.out.println("enter the length of your luggage: ");
+    int lenght = Integer.parseInt(reader.readLine());
 
-    BufferedReader reader2 = new BufferedReader(new InputStreamReader(System.in));
-    System.out.println("enter a widht: ");
-    int widht = Integer.parseInt(reader2.readLine());
+    System.out.println("enter the width of your luggage: ");
+    int widht = Integer.parseInt(reader.readLine());
 
-    BufferedReader reader3 = new BufferedReader(new InputStreamReader(System.in));
-    System.out.println("enter a height: ");
-    int height = Integer.parseInt(reader3.readLine());
+    System.out.println("enter the height of the luggage: ");
+    int height = Integer.parseInt(reader.readLine());
 
-    if (lenght <= 55 && widht <= 22 && height <= 40) {
+    dimensionCalculation(lenght, widht, height);
+
+  }
+
+  public static int dimensionCalculation(int lenght, int widht, int height) {
+    if (lenght <= 55 && widht <= 20 && height <= 40) {
       System.out.println("You can take hand luggage");
     } else {
       System.out.println("You can't take hand luggage");
     }
-
-
+    return lenght;
   }
-
-
 }

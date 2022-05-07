@@ -8,28 +8,42 @@ public class Scholarship {
 
   public static void main(String[] args) throws IOException {
 
-    BufferedReader reader1 = new BufferedReader(new InputStreamReader(System.in));
+    BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
     System.out.println("enter first grade: ");
-    int firstGrade = Integer.parseInt(reader1.readLine());
+    int firstGrade = Integer.parseInt(reader.readLine());
+    checkNumber(firstGrade);
 
-    BufferedReader reader2 = new BufferedReader(new InputStreamReader(System.in));
     System.out.println("enter second grade: ");
-    int secondGrade = Integer.parseInt(reader2.readLine());
+    int secondGrade = Integer.parseInt(reader.readLine());
+    checkNumber(secondGrade);
 
-    BufferedReader reader3 = new BufferedReader(new InputStreamReader(System.in));
     System.out.println("enter the third grade: ");
-    int thirdGrade = Integer.parseInt(reader3.readLine());
+    int thirdGrade = Integer.parseInt(reader.readLine());
+    checkNumber(thirdGrade);
 
-    BufferedReader reader4 = new BufferedReader(new InputStreamReader(System.in));
     System.out.println("enter the fourth grade: ");
-    int fourthGrade = Integer.parseInt(reader4.readLine());
+    int fourthGrade = Integer.parseInt(reader.readLine());
+    checkNumber(fourthGrade);
 
-    BufferedReader reader5 = new BufferedReader(new InputStreamReader(System.in));
     System.out.println("enter the fifth grade: ");
-    int fifthGrade = Integer.parseInt(reader5.readLine());
+    int fifthGrade = Integer.parseInt(reader.readLine());
+    checkNumber(fifthGrade);
 
-    double score = score(fifthGrade, secondGrade, thirdGrade, fourthGrade, fifthGrade);
+    int numberOfLessons = 5;
 
+    double score = averageMark(firstGrade, secondGrade, thirdGrade, fourthGrade, fifthGrade,
+        numberOfLessons);
+    double scholarshipCalculation = scholarshipCalculation(score);
+
+  }
+
+  public static double averageMark(double first, double second, double third, double fourth,
+      double fifth, int numberOfLessons) {
+    return (first + second + third + fourth + fifth) / numberOfLessons;
+  }
+
+  public static double scholarshipCalculation(double score) {
     if (score >= 10) {
       System.out.println("your score: " + score + " - Increased scholarships");
     } else if (score < 10 && score >= 8) {
@@ -37,11 +51,15 @@ public class Scholarship {
     } else if (score < 8) {
       System.out.println("your score: " + score + " - You don't have a scholarship");
     }
+    return score;
   }
 
-  public static double score(double first, double second, double third, double fourth,
-      double fifth) {
-    return (first + second + third + fourth + fifth) / 5;
+  public static double checkNumber(double number) {
+    if (number > 0 && number < 12) {
+      return number;
+    } else {
+      System.out.println("Wrong data");
+    }
+    return number;
   }
-
 }
