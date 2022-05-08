@@ -19,7 +19,6 @@ public class Bag {
     int height = Integer.parseInt(reader.readLine());
 
     dimensionCalculation(lenght, widht, height);
-
   }
   public static int dimensionCalculation(int lenght, int widht, int height) {
     if (lenght <= 55 && widht <= 20 && height <= 40) {
