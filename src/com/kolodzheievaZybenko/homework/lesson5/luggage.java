@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Bag {
+public class luggage {
 
   public static void main(String[] args) throws IOException {
 

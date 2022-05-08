@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e02dbeef-e04c-4573-8e7a-2346cb95f872" name="Changes" comment="correction lesson 5">
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson5/zx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson5/Bag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson5/Bag.java" afterDir="false" />
-    </list>
+    <list default="true" id="e02dbeef-e04c-4573-8e7a-2346cb95f872" name="Changes" comment="correction lesson 5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,46 +46,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Bag">
-    <configuration name="Bag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson5.Bag" />
-      <module name="java-introduction-27-04-22" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scholarship" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson5.Scholarship" />
-      <module name="java-introduction-27-04-22" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScholarshipSwitch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson5.ScholarshipSwitch" />
-      <module name="java-introduction-27-04-22" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.luggage">
     <configuration name="Switch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.classwork.lesson5.Switch" />
       <module name="java-introduction-27-04-22" />
@@ -103,8 +60,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="zx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="com.kolodzheievaZybenko.homework.lesson5.Scholarship" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson5.Scholarship" />
+      <module name="java-introduction-27-04-22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.kolodzheievaZybenko.homework.lesson5.ScholarshipSwitch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson5.ScholarshipSwitch" />
+      <module name="java-introduction-27-04-22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.kolodzheievaZybenko.homework.lesson5.zx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson5.zx" />
+      <module name="java-introduction-27-04-22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="luggage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson5.luggage" />
       <module name="java-introduction-27-04-22" />
       <extension name="coverage">
         <pattern>
@@ -118,10 +114,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Bag" />
-        <item itemvalue="Application.zx" />
-        <item itemvalue="Application.Scholarship" />
-        <item itemvalue="Application.ScholarshipSwitch" />
+        <item itemvalue="Application.luggage" />
+        <item itemvalue="Application.com.kolodzheievaZybenko.homework.lesson5.zx" />
+        <item itemvalue="Application.com.kolodzheievaZybenko.homework.lesson5.Scholarship" />
+        <item itemvalue="Application.com.kolodzheievaZybenko.homework.lesson5.ScholarshipSwitch" />
         <item itemvalue="Application.Switch" />
       </list>
     </recent_temporary>
@@ -240,7 +236,28 @@
       <option name="project" value="LOCAL" />
       <updated>1652002732821</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="correction lesson 5">
+      <created>1652020591419</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1652020591419</updated>
+    </task>
+    <task id="LOCAL-00017" summary="correction lesson 5">
+      <created>1652020608059</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1652020608059</updated>
+    </task>
+    <task id="LOCAL-00018" summary="correction lesson 5">
+      <created>1652020647440</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1652020647440</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
