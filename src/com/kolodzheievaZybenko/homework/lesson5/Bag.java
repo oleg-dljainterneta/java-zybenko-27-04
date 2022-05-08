@@ -9,6 +9,7 @@ public class Bag {
   public static void main(String[] args) throws IOException {
 
     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
     System.out.println("enter the length of your luggage: ");
     int length = Integer.parseInt(reader.readLine());
 
