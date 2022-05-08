@@ -10,24 +10,26 @@ public class Bag {
 
     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     System.out.println("enter the length of your luggage: ");
-    int lenght = Integer.parseInt(reader.readLine());
-
-    System.out.println("enter the width of your luggage: ");
-    int widht = Integer.parseInt(reader.readLine());
+    int length = Integer.parseInt(reader.readLine());
 
     System.out.println("enter the height of the luggage: ");
     int height = Integer.parseInt(reader.readLine());
 
-    dimensionCalculation(lenght, widht, height);
+    System.out.println("enter the width of your luggage: ");
+    int width = Integer.parseInt(reader.readLine());
+
+    boolean baggage = dimensionCalculationBaggage(length, height, width);
+
+    String message = baggage ? "You can take a luggage " : "You can't take a luggage ";
+    System.out.println(message);
   }
-  public static int dimensionCalculation(int lenght, int widht, int height) {
-    if (lenght <= 55 && widht <= 20 && height <= 40) {
-      System.out.println("You can take hand luggage");
-    } else if (lenght <= 53 && widht <= 22 && height <= 40){
-      System.out.println("You can take hand luggage");
+
+  public static boolean dimensionCalculationBaggage(int length, int height, int width) {
+    if (length <= 55 && height <= 40 && width <= 20) {
+      return true;
+
     } else {
-      System.out.println("You can't take hand luggage");
+      return length <= 40 && height <= 53 && width <= 22;
     }
-    return lenght;
   }
 }
