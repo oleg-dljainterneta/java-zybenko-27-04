@@ -33,7 +33,7 @@ public class Scholarship {
 
     double averageRating = averageMark(firstGrade, secondGrade, thirdGrade, fourthGrade, fifthGrade,
         numberOfLessons);
-    double scholarshipCalculation = scholarshipCalculation(averageRating);
+    double scholarshipCalculation = alculationScholarship(averageRating);
 
   }
 
@@ -42,7 +42,7 @@ public class Scholarship {
     return (first + second + third + fourth + fifth) / numberOfLessons;
   }
 
-  public static double scholarshipCalculation(double score) {
+  public static double alculationScholarship(double score) {
     if (score >= 10) {
       System.out.println("your score: " + score + " - You have increased scholarships");
     } else if (score < 10 && score >= 8) {

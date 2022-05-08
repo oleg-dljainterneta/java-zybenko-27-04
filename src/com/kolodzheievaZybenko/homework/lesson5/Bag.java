@@ -24,6 +24,8 @@ public class Bag {
   public static int dimensionCalculation(int lenght, int widht, int height) {
     if (lenght <= 55 && widht <= 20 && height <= 40) {
       System.out.println("You can take hand luggage");
+    } else if (lenght <= 53 && widht <= 22 && height <= 40){
+      System.out.println("You can take hand luggage");
     } else {
       System.out.println("You can't take hand luggage");
     }
