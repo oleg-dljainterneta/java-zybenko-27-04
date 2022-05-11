@@ -8,11 +8,11 @@ public class Calculator {
 
   public static void main(String[] args) throws IOException {
     BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-    System.out.println("Введи первое число");
+    System.out.println("Enter first number: ");
     double number1 =  Integer.parseInt(in.readLine());
-    System.out.println("Что делать?");
+    System.out.println("Enter math action: ");
     char mathAction = in.readLine().charAt(0);
-    System.out.println("Введите второе число");
+    System.out.println("Enter second number: ");
     int number2 =  Integer.parseInt(in.readLine());
 
     if (number2 == 0 && mathAction == '/') {
