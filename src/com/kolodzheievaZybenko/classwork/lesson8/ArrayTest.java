@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 
 public class ArrayTest {
+
   public static void main(String[] args) throws IOException {
 
     // створити масив
@@ -48,7 +49,6 @@ public class ArrayTest {
     for (int i = 0; i < studentsBackup.length; i++) {
       System.out.println(studentsBackup[i]);
     }
-
     String[] fruit = new String[3];
     System.out.println(fruit);
     fillArray(fruit);

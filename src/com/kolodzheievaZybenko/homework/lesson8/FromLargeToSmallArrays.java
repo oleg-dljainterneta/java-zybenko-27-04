@@ -20,7 +20,6 @@ public class FromLargeToSmallArrays {
     myArray2(array);
   }
 
-
   private static void myArray2(int[] array) {
     int[] myArray2 = Arrays.copyOfRange(array, array.length / 2, array.length);
     System.out.println("First second of the array:: " + Arrays.toString(myArray2));

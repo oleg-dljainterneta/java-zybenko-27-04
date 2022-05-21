@@ -1,6 +1,7 @@
 package com.kolodzheievaZybenko.classwork.lesson8;
 
 public class ArrayLink {
+
   public static void main(String[] args) {
 
     String[] strings = new String[3];
@@ -18,7 +19,6 @@ public class ArrayLink {
 
     String[] newStrings = createAndFill(10);
     printArray(newStrings);
-
   }
 
   public static void fillArray(String[] strings) {

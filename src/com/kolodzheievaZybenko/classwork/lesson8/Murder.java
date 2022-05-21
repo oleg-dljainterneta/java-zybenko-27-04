@@ -14,7 +14,6 @@ public class Murder {
         index = i;
       }
     }
-
     System.out.println(index + " murder " + max);
   }
 
