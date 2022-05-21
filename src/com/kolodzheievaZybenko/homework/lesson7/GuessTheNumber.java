@@ -10,20 +10,20 @@ public class GuessTheNumber {
     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     System.out.println("Guess the number from 1 to 10: ");
 
-    int UserNumber;
-    int UnknownNumber = (int) Math.floor(Math.random() * 10);
+    int userNumber;
+    int unknownNumber = (int) Math.floor(Math.random() * 10);
 
     do {
       System.out.print("Enter your number: ");
-      UserNumber = Integer.parseInt(reader.readLine());
-      if (UserNumber > UnknownNumber) {
+      userNumber = Integer.parseInt(reader.readLine());
+      if (userNumber > unknownNumber) {
         System.out.println("Number must be less ");
-      } else if (UserNumber < UnknownNumber) {
+      } else if (userNumber < unknownNumber) {
         System.out.println("number must be greater ");
       } else {
         System.out.println("Congratulations you guessed it! ");
       }
-    } while (UserNumber != UnknownNumber);
+    } while (userNumber != unknownNumber);
   }
 }
 
