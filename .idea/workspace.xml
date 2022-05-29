@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e02dbeef-e04c-4573-8e7a-2346cb95f872" name="Changes" comment="add lesson 9">
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson10/Binary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson10/Drawing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson10/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson10/Fill2dArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson10/ThreeDimArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson10/TwoDimArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson10/TransposeMN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson8/FromLargeToSmallArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson8/FromLargeToSmallArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson10/TransposeMN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson10/TransposeMN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson9/ArrayOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson9/ArrayOptions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +55,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FromLargeToSmallArrays">
+  <component name="RunManager" selected="Application.TransposeMN">
     <configuration name="FromLargeToSmallArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson8.FromLargeToSmallArrays" />
       <module name="java-introduction-27-04-22" />
@@ -131,9 +123,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TransposeMN" />
         <item itemvalue="Application.FromLargeToSmallArrays" />
         <item itemvalue="Application.qwrdasc" />
-        <item itemvalue="Application.TransposeMN" />
         <item itemvalue="Application.a" />
         <item itemvalue="Application.sdd" />
       </list>
@@ -309,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653813910369</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add lesson 9">
+      <created>1653848980990</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1653848980990</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

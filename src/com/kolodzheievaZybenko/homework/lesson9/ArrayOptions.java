@@ -62,5 +62,26 @@ public class ArrayOptions {
         }
     }
 
+    public static void printTwoDimensionalArray(int[][] array) {
+        for (int[] ints : array) {
+            for (int anInt : ints) {
+                System.out.printf("%3d", anInt);
+
+            }
+            System.out.println();
+        }
+    }
+    public static int[][] createArrayAndFillTwoDimensional(int sizeArrayLines, int sizeArrayColumns) {
+        int[][] array = new int[sizeArrayLines][sizeArrayColumns];
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                array[i][j] = ArrayOptions.readNumber();
+            }
+        }
+        return array;
+    }
+
+
+
 }
 
