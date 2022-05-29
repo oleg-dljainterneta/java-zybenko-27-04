@@ -65,7 +65,7 @@ public class ArrayOptions {
     public static void printTwoDimensionalArray(int[][] array) {
         for (int[] ints : array) {
             for (int anInt : ints) {
-                System.out.printf("%3d", anInt);
+                System.out.printf("%4d", anInt);
             }
             System.out.println();
         }
@@ -79,7 +79,18 @@ public class ArrayOptions {
         }
         return array;
     }
+    public static int[][] createArrayAndFillTwoDimensionalMinMax(int sizeArrayLines, int sizeArrayColumns, int max, int min) {
+        int[][] array = new int[sizeArrayLines][sizeArrayColumns];
+        System.out.println("Fill array: ");
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                array[i][j] = (int) (Math.random() * (max - min) + min);
 
+            }
+
+        }
+        return array;
+    }
 
 
 }
