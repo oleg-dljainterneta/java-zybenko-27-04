@@ -66,7 +66,6 @@ public class ArrayOptions {
         for (int[] ints : array) {
             for (int anInt : ints) {
                 System.out.printf("%3d", anInt);
-
             }
             System.out.println();
         }
