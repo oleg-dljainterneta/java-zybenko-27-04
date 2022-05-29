@@ -2,6 +2,7 @@ package com.kolodzheievaZybenko.homework.lesson9;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 
 public class ArrayOptions {
     public static final BufferedReader READER = new BufferedReader(new InputStreamReader(System.in));
@@ -17,7 +18,9 @@ public class ArrayOptions {
         }
         return array;
     }
-
+    public static void print(int[] array, String message) {
+        System.out.println(message + " " + Arrays.toString(array));
+    }
     public static int readNumber() {
         System.out.println("input number:");
         try {

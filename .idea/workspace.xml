@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e02dbeef-e04c-4573-8e7a-2346cb95f872" name="Changes" comment="add lesson 6">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson5/Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson5/Salary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson9/ArraySort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson9/CopyArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson9/ArrayOptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson9/Lottery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson9/Zero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e02dbeef-e04c-4573-8e7a-2346cb95f872" name="Changes" comment="add lesson 9">
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson10/Binary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson10/Drawing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson10/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson10/Fill2dArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson10/ThreeDimArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson10/TwoDimArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson10/TransposeMN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson8/FromLargeToSmallArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson8/FromLargeToSmallArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson9/ArrayOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson9/ArrayOptions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +63,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Lottery">
-    <configuration name="ArrayReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.classwork.lesson8.ArrayReverse" />
+  <component name="RunManager" selected="Application.FromLargeToSmallArrays">
+    <configuration name="FromLargeToSmallArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson8.FromLargeToSmallArrays" />
       <module name="java-introduction-27-04-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kolodzheievaZybenko.classwork.lesson8.*" />
+          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lottery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson9.Lottery" />
+    <configuration name="TransposeMN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson10.TransposeMN" />
       <module name="java-introduction-27-04-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson9.*" />
+          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson9.Zero" />
+    <configuration name="a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson10.a" />
       <module name="java-introduction-27-04-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson9.*" />
+          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="asd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson9.asd" />
+    <configuration name="qwrdasc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson10.qwrdasc" />
       <module name="java-introduction-27-04-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson9.*" />
+          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="qwe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson9.qwe" />
+    <configuration name="sdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson10.sdd" />
       <module name="java-introduction-27-04-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson9.*" />
+          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lottery" />
-        <item itemvalue="Application.Zero" />
-        <item itemvalue="Application.asd" />
-        <item itemvalue="Application.qwe" />
-        <item itemvalue="Application.ArrayReverse" />
+        <item itemvalue="Application.FromLargeToSmallArrays" />
+        <item itemvalue="Application.qwrdasc" />
+        <item itemvalue="Application.TransposeMN" />
+        <item itemvalue="Application.a" />
+        <item itemvalue="Application.sdd" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +295,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652272061404</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add lesson 9">
+      <created>1653813471963</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1653813471963</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add lesson 9">
+      <created>1653813910369</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1653813910369</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -316,6 +330,17 @@
     <MESSAGE value="Add lesson 5" />
     <MESSAGE value="correction lesson 5" />
     <MESSAGE value="add lesson 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lesson 6" />
+    <MESSAGE value="add lesson 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lesson 9" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
