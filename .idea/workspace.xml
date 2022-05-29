@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e02dbeef-e04c-4573-8e7a-2346cb95f872" name="Changes" comment="add lesson 6">
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson7/Bomb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson7/Continue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson7/DoWhile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson7/For.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson7/While.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson7/WhileSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson7/CarwashVariantOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson7/CarwashVariantTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson7/GuessTheNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson7/JapaneseUnluckyNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson5/Money.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson5/Salary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson9/ArraySort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson9/CopyArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson9/ArrayOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson9/Lottery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson9/Zero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +36,9 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-18.0.1.1/lib/src.zip!/java.base/java/io/BufferedReader.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -58,13 +63,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CarwashVariantOne">
-    <configuration name="CarwashVariantOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson7.CarwashVariantOne" />
+  <component name="RunManager" selected="Application.Lottery">
+    <configuration name="ArrayReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.classwork.lesson8.ArrayReverse" />
       <module name="java-introduction-27-04-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson7.*" />
+          <option name="PATTERN" value="com.kolodzheievaZybenko.classwork.lesson8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarwashVariantTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson7.CarwashVariantTwo" />
+    <configuration name="Lottery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson9.Lottery" />
       <module name="java-introduction-27-04-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson7.*" />
+          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JapaneseUnluckyNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson7.JapaneseUnluckyNumbers" />
+    <configuration name="Zero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson9.Zero" />
       <module name="java-introduction-27-04-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson7.*" />
+          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimalNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson6.MinimalNumber" />
+    <configuration name="asd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson9.asd" />
       <module name="java-introduction-27-04-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson6.*" />
+          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.kolodzheievaZybenko.homework.lesson7.GuessTheNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson7.GuessTheNumber" />
+    <configuration name="qwe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson9.qwe" />
       <module name="java-introduction-27-04-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson7.*" />
+          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CarwashVariantOne" />
-        <item itemvalue="Application.CarwashVariantTwo" />
-        <item itemvalue="Application.com.kolodzheievaZybenko.homework.lesson7.JapaneseUnluckyNumbers" />
-        <item itemvalue="Application.com.kolodzheievaZybenko.homework.lesson7.GuessTheNumber" />
-        <item itemvalue="Application.MinimalNumber" />
+        <item itemvalue="Application.Lottery" />
+        <item itemvalue="Application.Zero" />
+        <item itemvalue="Application.asd" />
+        <item itemvalue="Application.qwe" />
+        <item itemvalue="Application.ArrayReverse" />
       </list>
     </recent_temporary>
   </component>
