@@ -7,11 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e02dbeef-e04c-4573-8e7a-2346cb95f872" name="Changes" comment="add lesson 9">
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson10/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson10/NegativeNumbers.java" afterDir="false" />
+    <list default="true" id="e02dbeef-e04c-4573-8e7a-2346cb95f872" name="Changes" comment="add lesson 10">
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson11/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson11/DogMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson11/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson11/CatMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson11/PasswordGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson9/ArrayOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson9/ArrayOptions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +62,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.NegativeNumbers">
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson10.Factorial" />
+  <component name="RunManager" selected="Application.CatMain">
+    <configuration name="CatMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson11.CatMain" />
       <module name="java-introduction-27-04-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson10.*" />
+          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FromLargeToSmallArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson8.FromLargeToSmallArrays" />
+    <configuration name="DogMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.classwork.lesson11.DogMain" />
       <module name="java-introduction-27-04-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson8.*" />
+          <option name="PATTERN" value="com.kolodzheievaZybenko.classwork.lesson11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NegativeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson10.NegativeNumbers" />
+    <configuration name="Password1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson11.Password1" />
       <module name="java-introduction-27-04-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson10.*" />
+          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson11.Password1" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransposeMN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson10.TransposeMN" />
+    <configuration name="PasswordGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson11.PasswordGenerator" />
       <module name="java-introduction-27-04-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson10.*" />
+          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson11.Password1" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="qwrdasc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson10.qwrdasc" />
+    <configuration name="qwe123" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson11.qwe123" />
       <module name="java-introduction-27-04-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson10.*" />
+          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson11.Password1" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NegativeNumbers" />
-        <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.TransposeMN" />
-        <item itemvalue="Application.FromLargeToSmallArrays" />
-        <item itemvalue="Application.qwrdasc" />
+        <item itemvalue="Application.CatMain" />
+        <item itemvalue="Application.DogMain" />
+        <item itemvalue="Application.com.kolodzheievaZybenko.homework.lesson11.PasswordGenerator" />
+        <item itemvalue="Application.com.kolodzheievaZybenko.homework.lesson11.qwe123" />
+        <item itemvalue="Application.Password1" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653849290151</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="add lesson 10">
+      <created>1653852222063</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1653852222063</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -349,7 +358,8 @@
     <MESSAGE value="correction lesson 5" />
     <MESSAGE value="add lesson 6" />
     <MESSAGE value="add lesson 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lesson 9" />
+    <MESSAGE value="add lesson 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lesson 10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
