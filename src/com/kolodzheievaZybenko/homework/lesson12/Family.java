@@ -10,7 +10,6 @@ public class Family {
         this.name = name;
     }
 
-
     public Family(String name, Family mother, Family father) {
         this.name = name;
         this.mother = mother;
