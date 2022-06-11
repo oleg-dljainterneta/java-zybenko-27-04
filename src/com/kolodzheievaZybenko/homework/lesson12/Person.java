@@ -12,7 +12,7 @@ public class Person {
 
     private final String name;
     private final String surname;
-    private final int height, age, weight;
+    private  int height, age, weight;
 
     public Person() {
         this.name = NAMES[((int) (Math.random() * NAMES.length))];

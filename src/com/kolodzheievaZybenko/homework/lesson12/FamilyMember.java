@@ -1,16 +1,16 @@
 package com.kolodzheievaZybenko.homework.lesson12;
 
-public class Family {
+public class FamilyMember {
 
     private final String name;
-    private Family mother;
-    private Family father;
+    private FamilyMember mother;
+    private FamilyMember father;
 
-    Family(String name) {
+    FamilyMember(String name) {
         this.name = name;
     }
 
-    public Family(String name, Family mother, Family father) {
+    public FamilyMember(String name, FamilyMember mother, FamilyMember father) {
         this.name = name;
         this.mother = mother;
         this.father = father;

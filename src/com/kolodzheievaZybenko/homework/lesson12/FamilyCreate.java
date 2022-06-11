@@ -9,23 +9,22 @@ public class FamilyCreate {
     public static void main(String[] args) throws IOException {
         System.out.println("What's your name?");
         String name = ArrayOptions.READER.readLine();
-
         System.out.println("What is your mom's name?");
-        String isMother = ArrayOptions.READER.readLine();
-        Family mother = null;
-        if (isMother != null && !isMother.isBlank()) {
-            mother = new Family(isMother);
+        String Mother = ArrayOptions.READER.readLine();
+        FamilyMember mother = null;
+        if (Mother != null && !Mother.isBlank()) {
+            mother = new FamilyMember(Mother);
         }
 
         System.out.println("What is your dad's name?");
         String isFather = ArrayOptions.READER.readLine();
-        Family father = null;
+        FamilyMember father = null;
         if (isFather != null && !isFather.isBlank()) {
-            father = new Family(isFather);
+            father = new FamilyMember(isFather);
         }
 
-        Family allFamily = new Family(name, mother, father);
+        FamilyMember allFamilyMember = new FamilyMember(name, mother, father);
 
-        System.out.println("Family: " + allFamily);
+        System.out.println("Family: " + allFamilyMember);
     }
 }
