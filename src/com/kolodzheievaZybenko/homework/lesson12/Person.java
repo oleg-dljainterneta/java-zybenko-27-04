@@ -22,7 +22,7 @@ public class Person {
 
     public Person() {
         this.sex = SEX[((int) (Math.random() * SEX.length))];
-        String[] heightWeightArray = heightWeight(age, Integer.parseInt(sex), NAMES_FEMALE, NAMES_MALE, SHURNAMES_FEMALE, SHURNAMES_MALE);
+        String[] heightWeightArray = heightWeight(age, SEX, NAMES_FEMALE, NAMES_MALE, SHURNAMES_FEMALE, SHURNAMES_MALE);
         this.name = heightWeightArray[2];
         this.surname = heightWeightArray[3];
         this.age = (int) (Math.random() * (90 - 1) + 1);
@@ -41,7 +41,7 @@ public class Person {
         }
     }
 
-    public static String[] heightWeight(int age, int sex, String[] namesFemale, String[] namesMale, String[] surnameFemale, String[] surnameMale) {
+    public static String[] heightWeight(int age, String [] sex, String[] namesFemale, String[] namesMale, String[] surnameFemale, String[] surnameMale) {
         String informationSurname = null;
         String informationName = null;
         int height = 0;
