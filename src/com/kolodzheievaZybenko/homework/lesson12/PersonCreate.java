@@ -9,4 +9,5 @@ public class PersonCreate {
         int count = ArrayOptions.readNumber();
         Person.createPerson(count);
     }
+
 }
