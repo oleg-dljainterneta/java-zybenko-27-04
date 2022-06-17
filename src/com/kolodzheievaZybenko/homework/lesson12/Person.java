@@ -11,7 +11,7 @@ public class Person {
     private static final String[] SHURNAMES_FEMALE = {"Pypkina", "Ivanova", "Petrova", "Sidorova", "Makarova", "Chehova", "Smirnova"};
     private static final String[] NAMES_MALE = {"Oleg", "Igor", "Sergej", "Pavel", "Inakentij", "Vitaly", "Masim"};
     private static final String[] SHURNAMES_MALE = {"Pypkin", "Ivanov", "Petrov", "Sidorov", "Makarov", "Chehov", "Smirnov"};
-    public static Sex[] SEXES = {Sex.FEMALE, Sex.MALE};
+    public static Sex[] SEXES = {Sex.Male, Sex.Female};
     private Sex sex;
     private String name;
     private String surname;
@@ -36,8 +36,8 @@ public class Person {
          person.sex = generateSex();
          generatePersonNameAndSurname(person);
          person.age = generatePersonAge();
-         person.height = generatePersonHeight(generatePersonAge());
-         person.weight = 12;
+         person.height = generatePersonHeight(person.age);
+         person.weight = generatePersonWeight(person.height);
          return person;
      }
     private static String chooseParam(String[] params) {
@@ -51,23 +51,23 @@ public class Person {
     }
 
     public static int generatePersonAge() {
-        return (int) (Math.random() * 90);
+        return (int) (Math.random() * (90-1)+1);
     }
 
     private static void generatePersonNameAndSurname(Person person) {
         switch (person.sex) {
-            case FEMALE -> {
+            case Female -> {
                 person.name = chooseParam(NAMES_FEMALE);
                 person.surname = chooseParam(SHURNAMES_FEMALE);
             }
-            case MALE -> {
+            case Male -> {
                 person.name = chooseParam(NAMES_MALE);
                 person.surname = chooseParam(SHURNAMES_MALE);
             }
         }
     }
     private static int generatePersonHeight(int age) {
-       int height =0;
+       int height;
         int min = 0;
         int max = 0;
         if (age > 18) {
@@ -75,7 +75,7 @@ public class Person {
             max = 190;
         } else if (age>12) {
             min =150;
-            max = 1165;
+            max = 165;
         } else if (age>8) {
             min =127;
             max = 150;
@@ -92,7 +92,10 @@ public class Person {
         height = (int) (Math.random() * (max - min) + min);
         return height;
     }
-
+    private static int generatePersonWeight(int height) {
+        int weightIndex = 20;
+        return  weightIndex * height * height / 10000;
+    }
 
 
     @Override

@@ -8,10 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e02dbeef-e04c-4573-8e7a-2346cb95f872" name="Changes" comment="add lesson 12(correction)">
-      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson12/Sex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson12/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson12/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson12/PersonCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson12/PersonCreate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -383,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655069445327</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="add lesson 12(correction)">
+      <created>1655450586085</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1655450586085</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
