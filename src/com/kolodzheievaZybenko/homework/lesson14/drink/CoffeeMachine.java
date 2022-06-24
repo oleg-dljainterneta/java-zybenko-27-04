@@ -24,8 +24,9 @@ public class CoffeeMachine {
         String input;
         ArrayList<Drink> drinks = new ArrayList<>();
 
-        while (!(input = reader.readLine()).equals("STOP")) {
+        while (!(input = reader.readLine()).equalsIgnoreCase("STOP")) {
             try {
+                System.out.println(" What drink would you like? or type stop ");
                 drinks.add(chooseDrink(ChooseDrink.valueOf(input)));
             } catch (IllegalArgumentException e) {
                 System.out.println("incorrect input");

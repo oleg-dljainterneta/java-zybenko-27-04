@@ -10,13 +10,12 @@ public class TaxCalculation {
     public static final BufferedReader READER = new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) throws IOException {
-        System.out.println(" Select property type \n RESIDENTIAL / COMMERCIAL / INDUSTRIAL \n Then type exit");
-        String input;
         ArrayList<PropertyTax> PropertyTax = new ArrayList<>();
-
-        while (!(input = READER.readLine()).equals("exit")) {
+        String input;
+        System.out.println(" Select property type \n RESIDENTIAL / COMMERCIAL / INDUSTRIAL \n Then type exit");
+        while (!(input = READER.readLine()).equalsIgnoreCase("exit")) {
             try {
-                PropertyTax.add(createPropertyTax(TypesOfRealEstate.valueOf(input)));
+                PropertyTax.add(createPropertyTax(TypesOfRealEstate.valueOf(input.toUpperCase())));
             } catch (IllegalArgumentException e) {
                 System.out.println(" Incorrect data, try again");
             }
@@ -28,17 +27,19 @@ public class TaxCalculation {
 
     public static PropertyTax createPropertyTax(TypesOfRealEstate type) throws IOException {
         switch (type) {
-            case RESIDENTIAL:
+            case RESIDENTIAL -> {
                 System.out.println("Input: Square, tax per square meter, percent ");
                 return new ResidentialProperties(inputData(), inputData(), inputPercent());
-            case COMMERCIAL:
+            }
+            case COMMERCIAL -> {
                 System.out.println("Input: Square, tax per square meter, revenue ");
                 return new CommercialRealEstate(inputData(), inputData(), inputData());
-            case INDUSTRIAL:
+            }
+            case INDUSTRIAL -> {
                 System.out.println("Input: Square, tax per square meter, revenue ");
                 return new IndustrialRealEstate(inputData(), inputData());
-            default:
-                throw new IllegalStateException("Unexpected value: " + type);
+            }
+            default -> throw new IllegalStateException("Unexpected value: " + type);
         }
     }
 
@@ -63,4 +64,5 @@ public class TaxCalculation {
         }
         return input;
     }
+
 }
