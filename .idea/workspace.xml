@@ -8,8 +8,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e02dbeef-e04c-4573-8e7a-2346cb95f872" name="Changes" comment="add lesson 12(correction)">
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson13/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson13/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson13/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson13/PetStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson13/Rat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson14/ChessBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson14/ChessGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson14/ChessItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson14/Drawable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson14/HtmlGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson14/HtmlTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson14/King.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson14/Pawn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/classwork/lesson14/Queen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson14/drink/Americano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson14/drink/Cappuccino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson14/drink/ChooseDrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson14/drink/CoffeeMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson14/drink/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson14/drink/Latte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson14/drink/Tea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson14/propertyTax/CommercialRealEstate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson14/propertyTax/IndustrialRealEstate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson14/propertyTax/PropertyTax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson14/propertyTax/ResidentialProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson14/propertyTax/TaxCalculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson14/propertyTax/TypesOfRealEstate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson12/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kolodzheievaZybenko/homework/lesson12/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +84,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PersonCreate">
-    <configuration name="IndicesOfArrayElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson13.IndicesOfArrayElements" />
+  <component name="RunManager" selected="Application.TaxCalculation">
+    <configuration name="DrinkShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson14.drink2.DrinkShop" />
       <module name="java-introduction-27-04-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson13.*" />
+          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson14.drink2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShiftRightLeft" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson13.ShiftRightLeft" />
+    <configuration name="Tax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson14.tax.Tax" />
       <module name="java-introduction-27-04-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson13.*" />
+          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson14.tax.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.kolodzheievaZybenko.homework.lesson13.IndicesOfArrayElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson13.IndicesOfArrayElements" />
+    <configuration name="TaxCalculation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson14.propertyTax.TaxCalculation" />
       <module name="java-introduction-27-04-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson13.*" />
+          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson14.propertyTax.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.kolodzheievaZybenko.homework.lesson13.ShiftRight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson13.ShiftRight" />
+    <configuration name="com.kolodzheievaZybenko.homework.lesson14.drink.CoffeeMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kolodzheievaZybenko.homework.lesson14.drink.CoffeeMachine" />
       <module name="java-introduction-27-04-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson13.*" />
+          <option name="PATTERN" value="com.kolodzheievaZybenko.homework.lesson14.drink.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TaxCalculation" />
+        <item itemvalue="Application.Tax" />
+        <item itemvalue="Application.DrinkShop" />
+        <item itemvalue="Application.com.kolodzheievaZybenko.homework.lesson14.drink.CoffeeMachine" />
         <item itemvalue="Application.PersonCreate" />
-        <item itemvalue="Application.ShiftRightLeft" />
-        <item itemvalue="Application.com.kolodzheievaZybenko.homework.lesson13.ShiftRight" />
-        <item itemvalue="Application.com.kolodzheievaZybenko.homework.lesson13.IndicesOfArrayElements" />
-        <item itemvalue="Application.com.kolodzheievaZybenko.homework.lesson13.IndicesOfArrayElements" />
       </list>
     </recent_temporary>
   </component>
@@ -388,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655450586085</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="add lesson 12(correction)">
+      <created>1655453420210</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1655453420210</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
