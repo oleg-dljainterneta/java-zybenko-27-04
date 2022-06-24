@@ -64,5 +64,4 @@ public class TaxCalculation {
         }
         return input;
     }
-
 }

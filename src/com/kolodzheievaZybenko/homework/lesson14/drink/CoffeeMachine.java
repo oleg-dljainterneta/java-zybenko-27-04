@@ -14,7 +14,6 @@ public class CoffeeMachine {
         ArrayList<Drink> drinks = createOrder();
         calculateOrderPrice(drinks);
         prepareDrinkAndGetPrice(drinks);
-
     }
 
     public static ArrayList<Drink> createOrder() throws IOException {
