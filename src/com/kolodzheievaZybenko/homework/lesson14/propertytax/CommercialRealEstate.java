@@ -1,6 +1,6 @@
-package com.kolodzheievaZybenko.homework.lesson14.propertyTax;
+package com.kolodzheievaZybenko.homework.lesson14.propertytax;
 
-public class CommercialRealEstate extends PropertyTax {
+public class CommercialRealEstate extends RealEstate {
     private int revenue;
 
     public CommercialRealEstate(int square, int taxPerSquareMeter, int revenue) {

@@ -12,8 +12,8 @@ public class CoffeeMachine {
     public static void main(String[] args) throws IOException {
 
         ArrayList<Drink> drinks = createOrder();
-        calculateOrderPrice(drinks);
-        prepareDrinkAndGetPrice(drinks);
+        printOrderPrice(drinks);
+        prepareDrink(drinks);
     }
 
     public static ArrayList<Drink> createOrder() throws IOException {
@@ -26,7 +26,7 @@ public class CoffeeMachine {
         while (!(input = reader.readLine()).equalsIgnoreCase("STOP")) {
             try {
                 System.out.println(" What drink would you like? or type stop ");
-                drinks.add(chooseDrink(ChooseDrink.valueOf(input)));
+                drinks.add(chooseDrink(DrinkType.valueOf(input)));
             } catch (IllegalArgumentException e) {
                 System.out.println("incorrect input");
             }
@@ -34,7 +34,7 @@ public class CoffeeMachine {
         return drinks;
     }
 
-    public static Drink chooseDrink(ChooseDrink type) {
+    public static Drink chooseDrink(DrinkType type) {
         return switch (type) {
             case AMERICANO -> new Americano("Americano", 10);
             case LATTE -> new Latte("Latte", 20);
@@ -44,21 +44,22 @@ public class CoffeeMachine {
     }
 
 
-    public static void calculateOrderPrice(ArrayList<Drink> drinks) {
+    public static void printOrderPrice(ArrayList<Drink> drinks) {
         int orderPrice = 0;
         for (Drink drink : drinks) {
             orderPrice += drink.getPrice();
+            System.out.println("Drink price: " + drink.price);
         }
+
         System.out.println("The price of your order:  " + orderPrice);
 
     }
 
-    public static void prepareDrinkAndGetPrice(ArrayList<Drink> drinks) {
+    public static void prepareDrink(ArrayList<Drink> drinks) {
         for (Drink drink : drinks) {
             drink.prepareDrink();
-            System.out.println("Drink price: " + drink.price);
+
         }
 
     }
-
 }

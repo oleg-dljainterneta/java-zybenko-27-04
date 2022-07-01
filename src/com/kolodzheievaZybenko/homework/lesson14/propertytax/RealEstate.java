@@ -1,10 +1,10 @@
-package com.kolodzheievaZybenko.homework.lesson14.propertyTax;
+package com.kolodzheievaZybenko.homework.lesson14.propertytax;
 
-public class PropertyTax {
+public class RealEstate {
     protected int square;
     protected int taxPerSquareMeter;
 
-    public PropertyTax(int taxPerSquareMeter, int square) {
+    public RealEstate(int taxPerSquareMeter, int square) {
         this.taxPerSquareMeter = taxPerSquareMeter;
         this.square = square;
     }

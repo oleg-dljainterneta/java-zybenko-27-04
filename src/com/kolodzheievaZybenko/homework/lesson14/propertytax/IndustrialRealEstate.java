@@ -1,6 +1,6 @@
-package com.kolodzheievaZybenko.homework.lesson14.propertyTax;
+package com.kolodzheievaZybenko.homework.lesson14.propertytax;
 
-public class IndustrialRealEstate extends PropertyTax {
+public class IndustrialRealEstate extends RealEstate {
     public IndustrialRealEstate(int square, int taxPerSquareMeter) {
         super(square, taxPerSquareMeter);
     }

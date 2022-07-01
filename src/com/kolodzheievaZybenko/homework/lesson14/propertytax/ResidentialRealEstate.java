@@ -1,9 +1,9 @@
-package com.kolodzheievaZybenko.homework.lesson14.propertyTax;
+package com.kolodzheievaZybenko.homework.lesson14.propertytax;
 
-public class ResidentialProperties extends PropertyTax {
+public class ResidentialRealEstate extends RealEstate {
     private int percent;
 
-    public ResidentialProperties(int square, int taxPerSquareMeter, int percent) {
+    public ResidentialRealEstate(int square, int taxPerSquareMeter, int percent) {
         super(square, taxPerSquareMeter);
         this.percent = percent;
     }

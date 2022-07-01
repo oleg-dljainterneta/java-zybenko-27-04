@@ -1,4 +1,4 @@
-package com.kolodzheievaZybenko.homework.lesson14.propertyTax;
+package com.kolodzheievaZybenko.homework.lesson14.propertytax;
 
 
 import java.io.BufferedReader;
@@ -10,26 +10,26 @@ public class TaxCalculation {
     public static final BufferedReader READER = new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) throws IOException {
-        ArrayList<PropertyTax> PropertyTax = new ArrayList<>();
+        ArrayList<RealEstate> realEstatesTax = new ArrayList<>();
         String input;
         System.out.println(" Select property type \n RESIDENTIAL / COMMERCIAL / INDUSTRIAL \n Then type exit");
         while (!(input = READER.readLine()).equalsIgnoreCase("exit")) {
             try {
-                PropertyTax.add(createPropertyTax(TypesOfRealEstate.valueOf(input.toUpperCase())));
+                realEstatesTax.add(createPropertyTax(RealEstateTypes.valueOf(input.toUpperCase())));
             } catch (IllegalArgumentException e) {
                 System.out.println(" Incorrect data, try again");
             }
         }
-        for (PropertyTax taxes1 : PropertyTax) {
-            System.out.println("Tax = " + taxes1.calculateTax());
+        for (RealEstate taxes : realEstatesTax) {
+            System.out.println("Tax = " + taxes.calculateTax());
         }
     }
 
-    public static PropertyTax createPropertyTax(TypesOfRealEstate type) throws IOException {
+    public static RealEstate createPropertyTax(RealEstateTypes type) throws IOException {
         switch (type) {
             case RESIDENTIAL -> {
                 System.out.println("Input: Square, tax per square meter, percent ");
-                return new ResidentialProperties(inputData(), inputData(), inputPercent());
+                return new ResidentialRealEstate(inputData(), inputData(), inputPercent());
             }
             case COMMERCIAL -> {
                 System.out.println("Input: Square, tax per square meter, revenue ");
@@ -49,7 +49,7 @@ public class TaxCalculation {
 
         if (input < 0) {
             System.out.println("Incorrect data, please, try again");
-            inputData();
+            return inputData();
         }
         return input;
     }
@@ -60,7 +60,7 @@ public class TaxCalculation {
 
         if (input < 0 || input > 100) {
             System.out.println("Incorrect data, please, try again");
-            inputPercent();
+            return inputPercent();
         }
         return input;
     }

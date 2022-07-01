@@ -1,6 +1,6 @@
 package com.kolodzheievaZybenko.homework.lesson14.drink;
 
-public enum ChooseDrink {
+public enum DrinkType {
     AMERICANO,
     LATTE,
     CAPPUCCINO,
